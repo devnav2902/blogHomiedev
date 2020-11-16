@@ -1,0 +1,44 @@
+.header {
+    &__box {
+        color: var(--dark-color);
+    }
+    .typewriter
+    {
+        @media only screen and (max-width: 37.5em){
+            min-height: 8rem;
+        }
+        h1 {
+            width: 100%;
+            font-weight: 300;
+            font-size: 3.2rem;
+            @media only screen and (max-width: 56.25em){
+                font-size: 2rem;
+            }
+            @media only screen and (max-width: 320px){
+                font-size: 1.6rem;
+            }
+        }
+        
+    }  
+    
+    .heading-content-text {
+        font-size: 6rem;
+        font-weight: 900;
+        @media only screen and (max-width: 56.25em) {
+            font-size: 4rem;
+        }
+        @media only screen and (max-width: 320px){
+            font-size: 2rem;
+        }
+        a {
+            color: var(--dark-color);
+            display: block;
+        }
+        position: relative;
+        line-height: 1.1;
+    }
+
+    .heading-content-text:hover {
+        color:var(--dark-color);
+    }
+}

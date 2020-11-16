@@ -1,0 +1,74 @@
+[
+    {
+        "id" : 1,
+        "image" : "https://i.pinimg.com/564x/70/00/a4/7000a4587f964817ae2767724ff48323.jpg",
+        "title" : "Creative WordPress Theme",
+        "content" : "Stylish, Lightning Fast & Easily Customizable. AppLand is a WordPress theme for App, Saas Products, Software, Startups and related products/services. It is 100% responsive and looks stunning on all types of screens and devices. You can use AppLand as a better way to present and promote your start-up mobile apps, saas applications, software, digital products. Users will love your site because it gives them a unique user experience (UX), clean, modern & beautiful design. 🚛🚚🚚",
+        "tag":"css",
+        "url":"community-1",
+        "author":"Nguyen Anh Vu"
+    },
+    {
+        "id" : 2,
+        "image" : "https://i.pinimg.com/originals/94/d8/06/94d8063b9bd0d11d1b5f24a3d2a60829.gif",
+        "title" : "Landing page UX/UI",
+        "content" : "Hi guys! New year - new updates in our portfolio. This year, we are planning to emphasize web design direction and create more award-winning sites for our clients (you may become one of them!). Btw...",
+        "tag":"Javascript",
+        "url":"community-2",
+        "author":"Dev Nav"
+    },
+    {
+        "id" : 3,
+        "image" : "https://i.pinimg.com/564x/33/dc/ca/33dccaf976141d5a67b054c3c1f97a16.jpg",
+        "title" : "Team Manager",
+        "content" : "Hey, what's up? 😄 Guys, today I'm super excited to share one more shot with you - my exploration of team manager landing page. Cheers for checking it out, have a good week ahead!",
+        "tag":"ReactJs",
+        "url":"community-3",
+        "author":"Major"
+    },
+    {
+        "id" : 4,
+        "image" : "https://i.pinimg.com/originals/81/5c/f9/815cf9f602eb43b4a843bd4ef49e7c8a.gif",
+        "title" : "Wallet Design App 💎",
+        "content" : "Wallet Design App 💎 designed by Manuel Rovira 😺🤘 for Orizon: UI/UX Design Agency. Connect with them on Dribbble; the global community for designers and creative professionals.",
+        "tag":"Css",
+        "url":"community-4",
+        "author":"Nguyen Anh Vu"
+    },
+    {
+        "id" : 5,
+        "image" : "https://i.pinimg.com/564x/9a/6a/26/9a6a26f2a3935d6fe61f991582ddf71e.jpg",
+        "title" : "Fast First - Local Urgent Courier Delivery Services",
+        "content" : "Stylish, Lightning Fast & Easily Customizable. AppLand is a WordPress theme for App, Saas Products, Software, Startups and related products/services. It is 100% responsive and looks stunning on all types of screens and devices. You can use AppLand as a better way to present and promote your start-up mobile apps, saas applications, software, digital products. Users will love your site because it gives them a unique user experience (UX), clean, modern & beautiful design. 🚛🚚🚚",
+        "tag":"Javascript",
+        "url":"community-5",
+        "author":"Nguyen Anh Vu"
+    },
+    {
+        "id" : 6,
+        "image" : "https://i.pinimg.com/originals/92/b0/09/92b00967103dd821ff99d809e1418111.gif",
+        "title" : "Kombucha",
+        "content" : "Kombucha designed by CRI$$ for Fireart Studio. Connect with them on Dribbble; the global community for designers and creative professionals.",
+        "tag":"Project",
+        "url":"community-6",
+        "author":"Nguyen Anh Vu"
+    },
+    {
+        "id" : 7,
+        "image" : "https://i.pinimg.com/564x/3b/63/e6/3b63e6ac929a02e8be79dbbcaaf4d47b.jpg",
+        "title" : "Kombucha",
+        "content" : "Kombucha designed by CRI$$ for Fireart Studio. Connect with them on Dribbble; the global community for designers and creative professionals.",
+        "tag":"PHP",
+        "url":"community-7",
+        "author":"Lee yean"
+    },
+    {
+        "id" : 8,
+        "image" : "https://i.pinimg.com/originals/92/b0/09/92b00967103dd821ff99d809e1418111.gif",
+        "title" : "Kombucha",
+        "content" : "Kombucha designed by CRI$$ for Fireart Studio. Connect with them on Dribbble; the global community for designers and creative professionals.",
+        "tag":"CSS",
+        "url":"community-8",
+        "author":"Nicky"
+    }
+]

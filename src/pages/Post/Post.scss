@@ -1,0 +1,86 @@
+.imagePreview {
+    width: 100%;
+    height: auto;
+    padding-bottom: 42%;
+}
+
+.content-article {
+    border-top-right-radius: .375rem;
+    border-top-left-radius: .375rem;
+    overflow: hidden;
+    background: var(--white-color);
+    border: 1px solid rgba(8, 9, 10, 0.1);
+    max-width: 80rem;
+    margin: 0 auto;
+    box-shadow: 0 1px 4px 0 rgba(117,141,166,.2142);
+    border-radius: 2rem;
+    
+    .post-title {
+        font-size: 4rem;
+        margin-bottom: 0;
+
+        @media only screen and (max-width: 56.25em) {
+            font-size: 2.4rem;
+        }
+        @media only screen and (max-width: 37.5em) {
+            font-size: 1.8rem;
+        }
+    }
+    .content-post {
+        line-height: 3.2rem;
+        padding: 5rem;
+        @media only screen and (max-width: 37.5em) {
+            padding: 1.8rem;
+        }
+        img {
+            max-width: 100%;
+            border-radius: .375rem;
+        }
+        pre {
+            border-radius: .375rem;
+            background-color: #2d2d2d;
+            padding: 2rem;
+            max-height: 40rem;
+            overflow: auto;
+            white-space: pre;
+        }
+        code {
+            color: #ccc;
+        }
+        p,img,pre {
+            margin: 1.5rem 0;
+        }
+    }
+    .details-post{
+        @media only screen and (max-width: 37.5em) {
+            flex-direction: column;
+            align-items: flex-start!important;
+            small,span {
+                margin-left: 0!important;
+                margin-top: 1rem;
+            }
+        }
+        p.author {
+            position: relative;
+            background-color: var(--primary-color);
+            padding: .5rem 1rem;
+            border-radius: .5rem;
+            @media only screen and (max-width: 37.5em) {
+                display: none;
+            }
+        }
+        p.author::before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid var(--primary-color);
+            top: -13px;
+            left: 20px;
+            transform: translateX(-50%) rotate(-90deg);
+        }
+    }
+    
+}

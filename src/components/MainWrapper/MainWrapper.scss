@@ -1,0 +1,21 @@
+main.main {
+    margin-bottom: 12rem;
+}
+.main,
+.header {
+    padding: 2rem 10rem;
+    width: 100%;
+    margin: 2rem auto;
+
+    @media only screen and (max-width: 75em) {
+        padding: 3rem 5rem;
+    }
+    @media only screen and (max-width: 56.25em) {
+        margin: 0 auto;
+    }
+            
+    @media only screen and (max-width: 37.5em) {
+        padding: 2rem 3rem;
+
+    }
+}
