@@ -1,1 +1,1 @@
-export default 'https://homiedev.herokuapp.com';
+export const url = 'https://homiedev.herokuapp.com';

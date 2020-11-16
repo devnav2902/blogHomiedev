@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios';
-import url from '../utils/URL';
+import {url} from '../utils/URL';
 
 const PostContext = React.createContext();
 
