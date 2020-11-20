@@ -31,7 +31,7 @@ export default function Masonry(props) {
   }
   // console.log(result);
   return (
-    <div style={{ display: 'flex' }}>
+    <div className="masonry" style={{ display: 'flex' }}>
       {result}
     </div>
   );

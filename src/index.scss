@@ -17,7 +17,7 @@ html {
   line-height: 1.6 !important;
 }
 body {
-  background: var(--white-color);
+  background: var(--dark-color);
   font-size: 1.6rem !important;
 }
 
@@ -26,10 +26,12 @@ li {
 }
 
 :root {
-  --dark-color: #000000;
-  --primary-color: #eef0f1;
+  --dark-color: #01263b;
+  --primary-color:#b98f41;
+  // --secondary-color: #ff8980;
   --white-color: #fff;
-  --blue-color: #5369f8;
+  // --text-color:#dd9866;
+  --blue-color: #0b61b4;
   --border-color: rgba(8, 9, 10, 0.1);
 
   --overlay: rgb(109 99 99 / 41%);
@@ -39,14 +41,6 @@ ul {
 }
 a {
   text-decoration: none !important;
-}
-
-main.main {
-  margin-bottom: 12rem;
-}
-
-.grid-system {
-  margin: 0 -2rem;
 }
 
 .mt-3 {
@@ -73,20 +67,8 @@ main.main {
 .mb-1 {
   margin-bottom: 1rem !important;
 }
-.bgr-w {
-  background-color: var(--white-color);
-}
-.color-w {
-  color: var(--white-color);
-}
-.color-b {
-  color: var(--blue-color);
-}
 .bd-radius {
   border-radius: 0.375rem;
-}
-.bgr-b {
-  background-color: var(--blue-color);
 }
 .display-block {
   display: block;

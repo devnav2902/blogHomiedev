@@ -2,30 +2,29 @@
     position: relative;
     transition: all .2s linear;
     overflow: hidden;
-    background-color: var(--white-color);
     backface-visibility: hidden;
     margin: 0 2rem 4rem;
+    background-color: var(--white-color);
+    border-radius: 1rem;
     @media only screen and (max-width: 320px){
         border: 1px solid var(--border-color);
         .date {
-            align-items: center;
-            margin-right: 0;
-            display: flex;
-            border-bottom: 1px solid var(--border-color);
-            padding: 1rem 0;
-            .day {
-                margin: 0 1rem;
-            }
-
+            display: none!important;
         }
     }
     
     .date{
         color: #aaa;
-        line-height: 1.3;
+        line-height: 1.6;
+        @media only screen and (max-width: 75em) {
+            font-size: 1.4rem;
+        }
         .day {
             font-size: 2.4rem;
             font-weight: bold;
+            @media only screen and (max-width: 75em) {
+                font-size: 2rem;
+            }
             @media only screen and (max-width: 56.25em) {
                 font-size: 1.8rem;
             }
@@ -34,12 +33,15 @@
 
     &__content{
         text-align: left;
-        padding:2rem 0;
+        padding:2rem;
         width: 100%;
+        border-bottom: 1px solid var(--border-color);
         position: relative;
         @media only screen and (max-width: 320px){
             padding: 2rem;
             flex-direction: column;
+            border-bottom: none;
+
         }
         .main-title {
             line-height: 26px;
@@ -48,27 +50,19 @@
             display: inline-block;
             width: 100%;
             position: relative;
-            padding-bottom: 1rem;
+            @media only screen and (max-width: 75em) {
+                font-size: 1.4rem;
+            }
             @media only screen and (max-width: 320px){
                 padding: 1rem 0;
             }
-            &::after {
-                content: "";
-                position: absolute;
-                width: 50px;
-                height: 1px;
-                bottom: 0;
-                left: 0;
-                background: #ddd;
-                z-index: 1;
-            }
         }
-        .main-title a {
+        .main-title {
             transition: all .2s;
             color: var(--dark-color);
         }
-        .main-title a:hover {
-            color: #149e93;
+        .main-title:hover {
+            color: var(--primary-color);
         }
 
     }

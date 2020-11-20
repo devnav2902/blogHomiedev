@@ -1,0 +1,40 @@
+.phone-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-color);
+    z-index: 9999;
+    display: none;
+    transition:all .3s ease-in-out;
+    visibility: hidden!important;
+    opacity: 0!important;
+    transform: translateY(-50rem);
+    @media only screen and (max-width: 37.5em) {
+        display: flex;   
+    }
+}
+.phone-menu.active {
+    transform: translateY(0);
+    visibility: visible!important;
+    opacity: 1!important;
+}
+.close-bars {
+    position: fixed;
+    z-index: 9999;
+    right: 2rem;
+    top: 3rem;
+    color: var(--white-color);
+    font-size: 2rem;
+}
+.category-link {
+    display: flex;
+    flex-direction: column;
+}
+.filter-item {
+    color: var(--white-color);
+}

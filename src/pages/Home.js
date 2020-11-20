@@ -3,7 +3,7 @@ import MasonryLayout from '../components/Masonry';
 import Article from '../components/Article/Article';
 import MainWrapper from '../components/MainWrapper/MainWrapper';
 import {PostContext} from '../context/post';
-import Loading from '../components/Loading';
+import Loading from '../components/Loading/Loading';
 import {MasonryColumnContext} from '../context/masonryColumn';
 
 export default function Home() {
@@ -14,19 +14,13 @@ export default function Home() {
     }
     else{
         return <MainWrapper>
-            <div className="main-center align-item-start flex">
-                <div className="content-wrapper w-100">
-                    <div className="grid-system" id="grid-system">
-                        <MasonryLayout columns={column}>
-                            {
-                                posts.map(post => {
-                                    return <Article key={post.id} values={post} />
-                                })
-                            }
-                        </MasonryLayout>
-                    </div>
-                </div>
-            </div>
+                <MasonryLayout columns={column}>
+                    {
+                        posts.map(post => {
+                            return <Article key={post.id} values={post} />
+                        })
+                    }
+                </MasonryLayout>
         </MainWrapper>
     }
 }

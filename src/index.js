@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {PostProvider} from './context/post';
 import {MasonryColumnProvider} from './context/masonryColumn';
+import SocialsProvider from './context/social';
 
 ReactDOM.render(
   <PostProvider>
-    <MasonryColumnProvider>
-      <App />
-    </MasonryColumnProvider>
+    <SocialsProvider>
+      <MasonryColumnProvider>
+        <App />
+      </MasonryColumnProvider>
+    </SocialsProvider>
   </PostProvider>,
   document.getElementById('root')
 );

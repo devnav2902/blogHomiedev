@@ -1,0 +1,21 @@
+.myProgress {
+    width: 60rem;
+    background-color: var(--dark-color);
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 5rem;
+    box-shadow: 3px 7px 10px #0a3a54;
+    padding: 4.5rem;
+    margin-top: 2rem;
+}
+.loading-text {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 900;
+}
+.myBar {
+    width: 0%;
+    border-radius: 2rem;
+    height: 100%;
+    background-color:var(--primary-color);
+}

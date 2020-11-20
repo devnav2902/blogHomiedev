@@ -5,9 +5,10 @@
     letter-spacing: 1.3;
     display: inline-block;
     background-color: rgb(240, 60, 129);
-    padding: 2px 4px;
+    padding: 2px 1rem;
     cursor: pointer;
     transition: transform .2s;
+    border-radius: .375rem;
     &:hover {
         transform: translateY(-2px);
     }

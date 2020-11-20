@@ -1,0 +1,10 @@
+.menu-bars {
+    margin-right: 2rem;
+    align-self: flex-end;
+    color: var(--white-color);
+    font-size: 2rem;
+    display: none;
+    @media only screen and (max-width: 37.5em) {
+        display: block;   
+    }
+}
