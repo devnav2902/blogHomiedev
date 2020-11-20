@@ -31,8 +31,8 @@ export default function Post() {
                     <div className="content-header">
                         
                         <div className="post-info">
-                            <h1 className="post-title mt-3 mb-1">{title}</h1>
-                            <div className="details-post flex">
+                            <h1 className="post-title">{title}</h1>
+                            <div className="details-post mt-1 flex">
                                 <span className="mr-3">
                                     <Link to={`/category/${category}`}><Tag category={category}/></Link>
                                 </span>
