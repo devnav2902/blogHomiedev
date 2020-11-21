@@ -1,11 +1,22 @@
 .article {
     position: relative;
     transition: all .2s linear;
+    transition-delay: .1s;
     overflow: hidden;
     backface-visibility: hidden;
-    margin: 0 2rem 4rem;
-    background-color: var(--white-color);
-    border-radius: 1rem;
+    margin: 0 3rem 6rem;
+    border-radius: 6px;
+    background: var(--dark-color);
+    box-shadow:  20px 20px 51px #090919, 
+             -20px -20px 51px #15173d;
+    &:hover {
+        background: #1f2141;
+        box-shadow:  20px 20px 43px #1c1e3b, 
+             -20px -20px 43px #222448;
+    }
+    @media only screen and (max-width: 75em) {
+        margin: 0 2rem 4rem;
+    }
     @media only screen and (max-width: 320px){
         border: 1px solid var(--border-color);
         .date {
@@ -19,29 +30,17 @@
         @media only screen and (max-width: 75em) {
             font-size: 1.4rem;
         }
-        .day {
-            font-size: 2.4rem;
-            font-weight: bold;
-            @media only screen and (max-width: 75em) {
-                font-size: 2rem;
-            }
-            @media only screen and (max-width: 56.25em) {
-                font-size: 1.8rem;
-            }
-        }
     }
 
     &__content{
         text-align: left;
         padding:2rem;
         width: 100%;
-        border-bottom: 1px solid var(--border-color);
         position: relative;
+        background-image: url('../../images/shape.png');
+        background-size: cover;
         @media only screen and (max-width: 320px){
             padding: 2rem;
-            flex-direction: column;
-            border-bottom: none;
-
         }
         .main-title {
             line-height: 26px;
@@ -59,7 +58,7 @@
         }
         .main-title {
             transition: all .2s;
-            color: var(--dark-color);
+            color: var(--white-color);
         }
         .main-title:hover {
             color: var(--primary-color);

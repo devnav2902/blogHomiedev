@@ -1,10 +1,12 @@
 .menu-bars {
-    margin-right: 2rem;
-    align-self: flex-end;
+    svg {
+        margin-right: 2rem;
+    }
+    justify-content: flex-end;
     color: var(--white-color);
     font-size: 2rem;
     display: none;
     @media only screen and (max-width: 37.5em) {
-        display: block;   
+        display: flex;   
     }
 }

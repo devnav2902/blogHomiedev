@@ -17,13 +17,9 @@ export default function Header() {
         <Bars openMenu={openMenu} />
         <PhoneMenu isOpen={menuPhone} openMenu={openMenu} />
         <div className="header__box">
-            <a href="/" className="heading-content-text">
-                <span className="small-text">HOMIE</span>
-                <h1>DEV.</h1>
-            </a>
             <div className="typewriter">
-                <h1>Hi! This is <strong>Homiedev.</strong></h1>
-                <h1>Just a simple website <br/> to learn <strong>Frontend</strong></h1>
+                <h1>Hi! This is <strong> <a href="/" className="typewrite__text">Homiedev.</a></strong></h1>
+                <h1>Just a simple website to learn <strong>Frontend</strong></h1>
             </div>
         </div>
         <Menu />

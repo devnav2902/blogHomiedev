@@ -1,10 +1,17 @@
 .heading-content-wrapper {
     padding-top: 4rem;
-    border-bottom: 2px solid var(--border-color);
     width: 100%;
     text-align: center;
     @media only screen and (max-width: 37.5em) {
         display: none;   
+    }
+    .filter-item-content {
+        display: inline-block;
+        padding: 2rem 3rem;
+        border-radius: 5rem;
+        background: var(--dark-color);
+        box-shadow:  20px 20px 51px #090919, 
+             -20px -20px 51px #15173d;
     }
     .filter-item {
         &:not(:last-child){
@@ -17,7 +24,6 @@
         font-weight: 500;
         border-radius: .375rem;
         text-transform: capitalize;
-        padding: 1.4rem 0;
         display: inline-block;
         @media only screen and (max-width: 56.25em) {
             font-size: 1.4rem;

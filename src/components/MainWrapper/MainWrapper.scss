@@ -1,22 +1,16 @@
-main.main {
-    padding-left: 7rem;
-    @media only screen and (max-width: 75em) {
-        padding-left: 0;
-    }
-}
-.col {
-    margin-top: -6rem;
-}
 .masonry {
-    background-color: var(--white-color);
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    // margin: 0 -2rem;
-    padding: 0 4rem;
+    margin:0 -3rem;
     @media only screen and (max-width: 75em) {
         margin: 0 -2rem;
-        border-radius: 0;
-        padding: 0 2rem;
+    }
+}
+.main {
+    padding: 6rem;
+    @media only screen and (max-width: 75em) {
+        padding: 4rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+        padding: 2rem;   
     }
 }
 .main,

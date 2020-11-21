@@ -39,7 +39,7 @@ export default function Post() {
                                 <p className="author">
                                     <strong>by: {author}</strong>
                                 </p>
-                                <DateWrapper styles={'flex ml-3'} date={date} dash={true} />
+                                <DateWrapper styles={'ml-3'} date={date} />
                             </div>
                         </div>
 

@@ -15,8 +15,8 @@ export default function Article(props) {
                     </Link>
                 </div> : null
             }
-            <div className="article__content flex align-item-start">
-                <Date date={date} styles={'flex flex-col mr-3'} />
+            <div className="article__content flex flex-col align-item-start">
+                <Date date={date} styles={'mb-1'} />
 
                 <div className="footer-post flex flex-col align-item-start">
                     <Link to={`/blog/${url}`} className="main-title">{title}</Link>

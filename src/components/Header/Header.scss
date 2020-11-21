@@ -1,23 +1,12 @@
 .header {
     position: relative;
-    height: 37.4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 4rem;
-    @media only screen and (max-width: 75em) {
-        height: 41rem;
-    }
-    @media only screen and (max-width: 56.25em){
-        height: 37.4rem;
-    }
     @media only screen and (max-width: 37.5em){
-        height: 24.4rem;
         padding-top: 3rem;
     }
     &__box {
         color: var(--white-color);
-        display: flex;
+        text-align: center;
         @media only screen and (max-width: 75em) {
             flex-direction: column;
         }
@@ -39,13 +28,15 @@
     }
     .typewriter
     {
-        margin-left: 7rem;
         @media only screen and (max-width: 75em) {
             margin-left: 0;
             margin-top: 1rem;
             br {
                 display: none;
             }
+        }
+        .typewrite__text {
+            color: var(--primary-color);
         }
         h1 {
             width: 100%;
@@ -64,33 +55,4 @@
 
     }  
     
-    .heading-content-text {
-        font-size: 6rem;
-        font-weight: 900;
-        color: var(--white-color);
-        line-height: .8;
-        @media only screen and (max-width: 75em) {
-            display: flex;
-            align-items: center;
-        }
-        @media only screen and (max-width: 56.25em) {
-            font-size: 4rem;
-        }
-        @media only screen and (max-width: 37.5em){
-            font-size: 2rem;
-        }
-        @media only screen and (max-width: 320px){
-            font-size: 2rem;
-        }
-        .small-text {
-            margin-left: 3px;
-            @media only screen and (max-width: 75em) {
-                margin-left: 0;
-            }
-        }
-    }
-
-    .heading-content-text:hover{
-        color: var(--blue-color);
-    }
 }

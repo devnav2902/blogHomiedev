@@ -1,10 +1,6 @@
 
 .content-article {
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
     overflow: hidden;
-    background-color: var(--white-color);
-    margin-top: -6rem;
     padding:3rem 4rem;
     @media only screen and (max-width: 75em) {
         border-radius: 0;
@@ -33,7 +29,7 @@
     }
     .post-title {
         font-size: 4rem;
-        color: var(--dark-color);
+        color: var(--white-color);
         text-align: center;
         @media only screen and (max-width: 56.25em) {
             font-size: 2.4rem;
@@ -44,7 +40,7 @@
     }
     .content-post {
         line-height: 3.2rem;
-
+        color: var(--white-color);
         img {
             width: 100%;
             border-radius: .375rem;
@@ -66,11 +62,11 @@
     }
     .details-post{        
         .date {
-            color: var(--dark-color);
+            color: var(--white-color);
         }
         p.author {
             position: relative;
-            color: var(--dark-color);
+            color: var(--white-color);
             padding: 1rem 0;
         }
         @media only screen and (max-width: 37.5em) {

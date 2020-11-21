@@ -17,7 +17,7 @@ html {
   line-height: 1.6 !important;
 }
 body {
-  background: var(--dark-color);
+  background-color: var(--dark-color-2);
   font-size: 1.6rem !important;
 }
 
@@ -26,16 +26,31 @@ li {
 }
 
 :root {
-  --dark-color: #01263b;
-  --primary-color:#b98f41;
-  // --secondary-color: #ff8980;
-  --white-color: #fff;
+  --dark-color: #0f102b;
+  --primary-color:#27e29e;
+  --dark-color-2:#36365c;
+  --white-color: #ffffff;
   // --text-color:#dd9866;
   --blue-color: #0b61b4;
   --border-color: rgba(8, 9, 10, 0.1);
 
   --overlay: rgb(109 99 99 / 41%);
 }
+
+#root {
+  margin: 6rem;
+  background: url('images/shape.png');
+  background-repeat: no-repeat;
+  background-color: var(--dark-color);
+  border-radius: 3rem;
+  box-shadow:  -26px -26px 52px #2e2e4e, 
+             26px 26px 52px #3e3e6a;
+  @media only screen and (max-width: 75em) {
+    margin: 0;
+    border-radius: 0;
+  } 
+}
+
 ul {
   list-style: none;
 }
