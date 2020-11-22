@@ -6,14 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import {PostProvider} from './context/post';
 import {MasonryColumnProvider} from './context/masonryColumn';
 import SocialsProvider from './context/social';
-
+import {UtilsProvider} from './context/utils';
 ReactDOM.render(
   <PostProvider>
+  <UtilsProvider>
     <SocialsProvider>
       <MasonryColumnProvider>
         <App />
       </MasonryColumnProvider>
     </SocialsProvider>
+  </UtilsProvider>
   </PostProvider>,
   document.getElementById('root')
 );

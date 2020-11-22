@@ -5,6 +5,8 @@ import Social from '../Social/Social';
 import './Header.scss';
 import PhoneMenu from '../Menu/PhoneMenu';
 import Bars from '../Menu/Bars';
+import ZoomIcon from '../ZoomIcon/ZoomIcon';
+import Mode from '../Mode/Mode';
 
 export default function Header() {
     const [menuPhone,setMenuPhone] = React.useState(false);
@@ -13,6 +15,10 @@ export default function Header() {
         setMenuPhone(!menuPhone);
     }
     return <header className="header">
+        <div className="utils flex">
+            <ZoomIcon />
+            <Mode />
+        </div>
         <Social />
         <Bars openMenu={openMenu} />
         <PhoneMenu isOpen={menuPhone} openMenu={openMenu} />

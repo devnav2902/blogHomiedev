@@ -14,7 +14,7 @@ export default function Tag(props) {
     else if(category === 'tricks'){
         tagName ='tricks';
     }
-    else if(category === 'project'){
+    else if(category === 'projects'){
         tagName = 'projects';
     }
     else if(category === 'php'){

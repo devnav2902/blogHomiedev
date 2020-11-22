@@ -1,18 +1,15 @@
 .article {
     position: relative;
-    transition: all .2s linear;
-    transition-delay: .1s;
+    transition: background .2s linear;
     overflow: hidden;
     backface-visibility: hidden;
     margin: 0 3rem 6rem;
     border-radius: 6px;
     background: var(--dark-color);
-    box-shadow:  20px 20px 51px #090919, 
-             -20px -20px 51px #15173d;
+    box-shadow: var(--box-shadow-dark);
     &:hover {
-        background: #1f2141;
-        box-shadow:  20px 20px 43px #1c1e3b, 
-             -20px -20px 43px #222448;
+        background: var(--color-article-content);
+        box-shadow: var(--box-shadow-dark-hover);
     }
     @media only screen and (max-width: 75em) {
         margin: 0 2rem 4rem;

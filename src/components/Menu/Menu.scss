@@ -10,8 +10,7 @@
         padding: 2rem 3rem;
         border-radius: 5rem;
         background: var(--dark-color);
-        box-shadow:  20px 20px 51px #090919, 
-             -20px -20px 51px #15173d;
+        box-shadow:  var(--box-shadow-dark);
     }
     .filter-item {
         &:not(:last-child){

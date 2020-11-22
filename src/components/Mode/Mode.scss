@@ -1,0 +1,6 @@
+.mode {
+    margin-left: 1.5rem;
+    @media only screen and (max-width: 75em) {
+        margin-left: 0;
+    } 
+}

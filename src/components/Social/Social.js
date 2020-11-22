@@ -4,7 +4,6 @@ import {TiSocialYoutube,TiSocialInstagram,TiSocialFacebook} from 'react-icons/ti
 import {FaGithubAlt} from 'react-icons/fa';
 import {RiShareForward2Fill} from 'react-icons/ri';
 import {SocialsContext} from '../../context/social';
-import {Link} from 'react-router-dom'
 
 export default function Social() {
     const {socials,loading} = React.useContext(SocialsContext);
@@ -16,24 +15,24 @@ export default function Social() {
                 <ul className="socials">
                     {socials.map(social => {
                         if(social.name_icon === 'TiSocialYoutube'){
-                            return <Link to={`${social.link}`} className="social" key={social.id}>
-                                <TiSocialYoutube /></Link>
+                            return <a target="_blank" rel="noreferrer" href={`${social.link}`} className="social" key={social.id}>
+                                <TiSocialYoutube /></a>
                         }
                         else if(social.name_icon === 'TiSocialInstagram'){
-                            return <Link to={`${social.link}`} className="social" key={social.id}>
-                                <TiSocialInstagram /></Link>
+                            return <a target="_blank" rel="noreferrer" href={`${social.link}`} className="social" key={social.id}>
+                                <TiSocialInstagram /></a>
                         }
                         else if(social.name_icon === 'FaGithubAlt'){
-                            return <Link to={`${social.link}`} className="social" key={social.id}>
-                                <FaGithubAlt /></Link>
+                            return <a target="_blank" rel="noreferrer" href={`${social.link}`} className="social" key={social.id}>
+                                <FaGithubAlt /></a>
                         }
                         else if(social.name_icon === 'TiSocialFacebook'){
-                            return <Link to={`${social.link}`} className="social" key={social.id}>
-                                <TiSocialFacebook /></Link>
+                            return <a target="_blank" rel="noreferrer" href={`${social.link}`} className="social" key={social.id}>
+                                <TiSocialFacebook /></a>
                         }
                         else {
-                            return <Link to={`${social.link}`} className="social" key={social.id}>
-                                <RiShareForward2Fill /></Link>;
+                            return <a target="_blank" rel="noreferrer" href={`${social.link}`} className="social" key={social.id}>
+                                <RiShareForward2Fill /></a>;
                         }
                     })}
                 </ul>
